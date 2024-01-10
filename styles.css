@@ -340,7 +340,7 @@ p {
                                                        width: 92%;
                                                        height: 14%;
                                                        margin-top: -2%;
-                                                       font-size: 40%; }}
+                                                       font-size: 30%; }}
 
                                                        @media screen and (max-width: 390px) {
                                                         p {
@@ -348,4 +348,3 @@ p {
                                                           font-size: 4rem; }}
 
 
-                                                          
