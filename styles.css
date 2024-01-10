@@ -80,7 +80,7 @@ p {
 .main-kys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
+    grid-gap: 0;
     font-size: 5rem;
     
 }
@@ -101,13 +101,13 @@ p {
 }
 .ac {
         height: 10rem;
-        width: 17rem;
-        background-color: #de0a87;
+        width: 9rem;
+        background-color: white;
         margin: 1rem 0.5rem;
         padding: 1rem;
         border-bottom: 1px solid grey;
         border-radius: 10px;
-        color: white;
+        color: deeppink;
         text-align: center;
         cursor: pointer;
         transition: all 0.1s;
@@ -144,7 +144,7 @@ p {
         transition: all 0.1s;
        
 }
-.ac{
+/* .ac{
     height: 10rem;
         width: 9rem;
         background-color: white;
@@ -157,7 +157,7 @@ p {
         text-align: center;
         cursor: pointer;
         transition: all 0.1s;
-}
+} */
 
 
 
@@ -200,3 +200,125 @@ p {
       }
       
    
+
+      @media screen and (max-width: 430px) {
+        .calc {
+          justify-content: center;
+          align-items: center;
+           width: 110%;
+           height: 80%;
+           margin-top: 0;
+           font-size: 10%; }}
+
+           @media screen and (max-width: 300px) {
+            .calc {
+              justify-content: center;
+              align-items: center;
+               width: 100%;
+               height: 80%;
+               margin-top: 0;
+               font-size: 10%; }}
+
+
+               @media screen and (max-width: 300px) {
+                .main-kys {
+                  
+                   width: 2%;
+                   margin-top: 0;
+                   font-size: 50%; 
+                  margin-right: 50%;}}
+
+                   @media screen and (max-width: 430px) {
+                    .keys li {
+                     
+                       width: 90%;
+                       margin-top: 0;
+                       font-size: 90%; }}
+
+                       @media screen and (max-width: 430px) {
+                        .keys .equals {
+                           width: 200%;
+                           margin-top: 0;
+                           font-size: 80%; }}
+
+                           @media screen and (max-width: 430px) {
+                            .keys .operant{
+                              margin-left: 20%;
+                               width: 90%;
+                               margin-top: 0;
+                               font-size: 80%; }}
+
+                               @media screen and (max-width: 430px) {
+                                .divis{
+                                  
+                                   width: 90%;
+                                   margin-top: 0;
+                                   font-size: 80%;
+                                  margin-left: 19%; }}
+
+                                   @media screen and (max-width: 430px) {
+                                    .ac{
+                                      
+                                       width: 90%;
+                                       margin-top: 0;
+                                       font-size: 80%; }}
+
+                                       @media screen and (max-width: 430px) {
+                                        .percent{
+                                          
+                                           width: 90%;
+                                           margin-top: 0;
+                                           font-size: 80%; }}
+
+                                           @media screen and (max-width: 430px) {
+                                            .clear{
+                                              
+                                               width: 90%;
+                                               margin-top: 0;
+                                               font-size: 80%; }}
+
+                                               @media screen and (max-width: 375px) {
+                                                .calc {
+                                                  justify-content: center;
+                                                  align-items: center;
+                                                   width: 100%;
+                                                   height: 100%;
+                                                   margin-top: 0;
+                                                   font-size: 10%; }}
+
+
+                                               /* @media screen and (max-width: 375px) {
+                                                .main-kys {
+                                                  
+                                                   width: 100%;
+                                                   margin-top: 0;
+                                                   font-size: 50%; 
+                                                  margin-right: 50%;}} */
+                                
+                                                   @media screen and (max-width: 375px) {
+                                                    .keys li {
+                                                     
+                                                       width: 90%;
+                                                       height: 80%;
+                                                       margin-top: 0;
+                                                       font-size: 60%; }}
+                                               @media screen and (max-width: 375px) {
+                                                .clear{
+                                                  
+                                                   width: 90%;
+                                                   margin-top: 0;
+                                                   font-size: 80%; }}
+
+                                                   @media screen and (max-width: 375px) {
+                                                    .result{
+                                                      
+                                                       width: 92%;
+                                                       height: 11%;
+                                                       margin-top: 0;
+                                                       font-size: 40%; }}
+
+
+                                                           @media screen and (max-width: 375px) {
+                                                p {
+                                                  
+                                                  font-size: 4rem; }}
