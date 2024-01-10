@@ -197,9 +197,7 @@ p {
         margin-top: 2rem;
         margin-left: 10px;
       
-      }
-      
-   
+    }
 
       @media screen and (max-width: 430px) {
         .calc {
@@ -322,3 +320,4 @@ p {
                                                 p {
                                                   
                                                   font-size: 4rem; }}
+
