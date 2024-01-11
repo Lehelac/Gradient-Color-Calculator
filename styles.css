@@ -99,7 +99,7 @@ p {
         transition: all 0.1;
 
 }
-.ac {
+.sr {
         height: 10rem;
         width: 9rem;
         background-color: white;
@@ -255,7 +255,7 @@ p {
                                   margin-left: 19%; }}
 
                                    @media screen and (max-width: 430px) {
-                                    .ac{
+                                    .sr{
                                       
                                        width: 90%;
                                        margin-top: 0;
@@ -278,7 +278,9 @@ p {
 
                                                @media only screen 
                                                 and (min-device-width : 320px) 
-                                                and (max-device-width : 480px) {
+                                                and (min-device-height: 500px)
+                                                and (max-device-width : 480px)
+                                                and (max-device-height: 950px) {
                                                 .calc {
                                                   justify-content: center;
                                                   align-items: center;

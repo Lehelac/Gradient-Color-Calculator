@@ -1,7 +1,7 @@
 const keys = document.getElementsByTagName("li");
 const result = document.querySelector("p");
 const clear = document.querySelector(".clear");
-const ac = document.querySelector(".ac");
+const sr = document.querySelector(".sr");
 const divis = document.querySelector(".divis");
 const perc = document.querySelector(".percent");
 
@@ -42,6 +42,12 @@ for (let i = 0; i < keys.length; i++) {
 
       }
 
+      function calculateS () {
+        return (result.innerHTML = Math.sqrt(result.innerHTML));
+      }
+
+      
+
 
       function calculate() {
         return (result.innerHTML = eval(result.innerHTML));
@@ -49,9 +55,6 @@ for (let i = 0; i < keys.length; i++) {
     
       clear.addEventListener("click", () => {
         result.innerHTML = "";})
-
-        ac.addEventListener("click", () => {
-            result.innerHTML = "";})
 
      divis.addEventListener("click", () => {
                 result.innerHTML += "/"
@@ -61,6 +64,8 @@ for (let i = 0; i < keys.length; i++) {
       perc.addEventListener("click", calculateD);
 
 
-    
+       sr.addEventListener("click", calculateS);
+
+
       
     
