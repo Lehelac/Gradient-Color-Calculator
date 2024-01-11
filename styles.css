@@ -99,7 +99,8 @@ p {
         background-color: white;
         margin: 1rem 0.5rem;
         padding: 1rem;
-        border-bottom: 1px solid grey;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
         border-radius: 10px;
         color: deeppink;
         text-align: center;
@@ -113,7 +114,8 @@ p {
         background-color: white;
         margin: 1rem 0.5rem;
         padding: 1rem;
-        border-bottom: 1px solid grey;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
         border-radius: 10px;
         color: deeppink;
         text-align: center;
@@ -128,7 +130,8 @@ p {
         background-color: white;
         margin: 1rem 0.5rem;
         padding: 1rem;
-        border-bottom: 1px solid grey;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
         border-radius: 10px;
         color: deeppink;
         text-align: center;
@@ -144,7 +147,8 @@ p {
         background-color: white;
         margin: 1rem 0.5rem;
         padding: 1rem;
-        border-bottom: 1px solid grey;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
         border-radius: 10px;
         color: deeppink;
         text-align: center;
@@ -187,6 +191,8 @@ p {
     background-color: white;
     color: deeppink;
     margin-left: -80px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
  
   }
     .keys li {
@@ -196,7 +202,8 @@ p {
         background-color: #f50b93;
         margin: 1rem 0.5rem;
         padding: 1rem;
-        border-bottom: 1px solid var(--color-primary);
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
         border-radius:  10px;
         color: white;
         text-align: center;
