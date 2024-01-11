@@ -67,5 +67,6 @@ for (let i = 0; i < keys.length; i++) {
        sr.addEventListener("click", calculateS);
 
 
+       
       
     
